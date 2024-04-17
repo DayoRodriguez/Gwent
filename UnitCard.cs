@@ -1,3 +1,5 @@
+using System.Security.AccessControl;
+
 namespace Gwent;
 public class UnitCard: Card
 {
@@ -7,22 +9,22 @@ public class UnitCard: Card
     //Saved Card's Kaind Attacks 
     public int[] KaindAttack {private set; get;}
 
-    //Saved Card's type
-    public string Type {private set; get;}
-
     //Set kaind of attack M = Cuerpo a Cuerpo // R = Ataque a distancia // S = Asedio
     public enum KaindAttacks {M, S, R};
 
-    //Set Card's Type
-    public enum Types {Gold, Silver};
+    //Saved is the card is a lider or not
+    public bool Lider{private set; get;}
 
-    public UnitCard(string name, int faction, int power, int m, int s, int r, int type)
+    public UnitCard(string name, int faction, int power, int m, int s, int r, int type, bool l)
     {
         this.Name = name;
         SetFaction(faction);
         this.Power = power;
         SetKaindAttack(m, s, r);
+        this.Type = type;
         SetType(type);
+        IsHero(Type);
+        this.Lider = l;
     }
 
      void SetKaindAttack(int m, int s, int r)
@@ -48,9 +50,10 @@ public class UnitCard: Card
         if(KaindAttack[0] == -1 && KaindAttack[1] == -1 && KaindAttack[2] == -1) KaindAttack[0] = (int)KaindAttacks.M;
     }
 
-    void SetType(int type)
+    public override int GetKind()
     {
-        if(type == (int)Types.Gold) Type = Types.Gold.ToString();
-        else Type = Types.Silver.ToString();
+        if(Lider) return 1;
+        else return -1;
     }
+
 }
