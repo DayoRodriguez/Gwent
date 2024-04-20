@@ -1,0 +1,14 @@
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\bin\Debug\net8.0\Gwent_C#_Code.exe
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\bin\Debug\net8.0\Gwent_C#_Code.deps.json
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\bin\Debug\net8.0\Gwent_C#_Code.runtimeconfig.json
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\bin\Debug\net8.0\Gwent_C#_Code.dll
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\bin\Debug\net8.0\Gwent_C#_Code.pdb
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\obj\Debug\net8.0\Gwent_C#_Code.GeneratedMSBuildEditorConfig.editorconfig
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\obj\Debug\net8.0\Gwent_C#_Code.AssemblyInfoInputs.cache
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\obj\Debug\net8.0\Gwent_C#_Code.AssemblyInfo.cs
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\obj\Debug\net8.0\Gwent_C#_Code.csproj.CoreCompileInputs.cache
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\obj\Debug\net8.0\Gwent_C#_Code.dll
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\obj\Debug\net8.0\refint\Gwent_C#_Code.dll
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\obj\Debug\net8.0\Gwent_C#_Code.pdb
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\obj\Debug\net8.0\Gwent_C#_Code.genruntimeconfig.cache
+E:\cibernetica\1er_Año_Repitencia\Programacion\GwentSchoolOriginal\Gwent_C#_Code\obj\Debug\net8.0\ref\Gwent_C#_Code.dll

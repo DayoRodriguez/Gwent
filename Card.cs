@@ -44,5 +44,9 @@ public abstract class Card
       }
 
       public abstract int GetKind();
+
+      public abstract bool IsUnit();
+
+      public abstract bool IsSpecial();
  
 }

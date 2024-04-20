@@ -31,4 +31,14 @@ public class SpecialCard : Card
         else if(Kind == (int)Kinds.dump) return (int)Kinds.dump;
         else return (int)Kinds.lure;
     }
+
+        public override bool IsUnit()
+    {
+        return false;
+    }
+
+    public override bool IsSpecial()
+    {
+        return true;
+    }
 }

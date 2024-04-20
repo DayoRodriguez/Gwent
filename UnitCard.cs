@@ -56,4 +56,14 @@ public class UnitCard: Card
         else return -1;
     }
 
+    public override bool IsUnit()
+    {
+        return true;
+    }
+
+    public override bool IsSpecial()
+    {
+        return false;
+    }
+
 }
